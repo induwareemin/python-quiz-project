@@ -24,13 +24,22 @@ if question3.lower() == ("20"):
 else:
   print("wrong")
 
+question4 = input("4.add those 220+10?")
+if question4.lower() == ("230"):
+  print("correct")
+  score += 1
+else:
+  print("wrong")
+  
 print(name, "your Final score is",score,"/3")
  
-if score == 3:
+if score == 4:
   print ("Exellent,All correct")
-elif score == 2:
+elif score == 3:
   print ("good job")
-elif score == 1:
+elif score == 2:
   print ("You can do better")
+elif score == 1:
+  print ("nice try")
 else:
   print ("Try Again")
