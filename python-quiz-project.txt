@@ -1,0 +1,36 @@
+print("welcome to quiz game")
+
+name=input("Enter your name")
+score=0
+
+question1 = input("1.What is the summation of 200 and 300?")
+if question1.lower() == "500":
+  print("correct")
+  score += 1
+else:
+  print("wrong")
+
+question2 = input("2.Solve 100+24.3?")
+if question2.lower() == "124.3":
+  print("correct")
+  score += 1
+else:
+  print("wrong")
+
+question3 = input("3.solve 100/5?")
+if question3.lower() == ("20"):
+  print("correct")
+  score += 1
+else:
+  print("wrong")
+
+print(name, "your Final score is",score,"/3")
+ 
+if score == 3:
+  print ("Exellent,All correct")
+elif score == 2:
+  print ("good job")
+elif score == 1:
+  print ("You can do better")
+else:
+  print ("Try Again")
